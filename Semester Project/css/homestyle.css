@@ -24,7 +24,6 @@ nav {
     text-align: center;
     font-family:Verdana, Tahoma, sans-serif;
     font-size: 15px;
-    position: static;
 }
 
 nav a {
@@ -47,10 +46,9 @@ nav a:link, nav a:visited {
     padding: 5px;         
 }
 @media screen and (max-width: 500px) {
-    .navbar a {
+    .nav a {
       float: none;
       display: block;
     }
-  }
-
+}
 
