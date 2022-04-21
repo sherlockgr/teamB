@@ -13,37 +13,45 @@
 .nav-img {   
     display: block;  
     width: 100px;         
-    margin-left: auto; 
-    margin-right: auto;
+    float: left;
+}
+
+.nav-cart {
+    width: 25px;
+    margin-top: 40px;
 }
 
 nav {
     background-color: #ffffff;    
     color: rgb(0, 0, 0);          
-    width: 100%;            
-    margin: 0;                  
+    width: 100%;                            
     text-align: center;
     font-family:Verdana, Tahoma, sans-serif;
+    font-size: 15px;
 }
 
 nav a {
     display: inline-block; 
     width: 75px;    
-    color: rgb(0, 0, 0);    
-    margin: 25px;
+    color: rgb(0, 0, 0);  
+    margin: 15px;  
 }
 
 nav a:hover, nav a:active, .current {
-    color: #000000;                 
-    border-bottom: 2px solid #333;  
+    color: #000000;                   
 }
 
-nav a:link, nav a:visited {      
-    border-radius: 5px;     
+nav a:link, nav a:visited {          
     text-align: center;     
     text-decoration: none;  
     position: relative;     
     left: 50px;             
     top: -25px;    
     padding: 5px;         
+}
+@media screen and (max-width: 500px) {
+    .nav a {
+      float: none;
+      display: block;
+    }
 }
