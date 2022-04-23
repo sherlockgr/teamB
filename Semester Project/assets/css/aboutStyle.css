@@ -16,9 +16,6 @@ p {
     font-size: 16px;
 }
 
-body {
-    font-family: Verdana, Tahoma, sans-serif;
-}
 
 input[type=text], select, textarea {
   width: 100%;
