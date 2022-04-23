@@ -14,7 +14,7 @@
   background-attachment: fixed;
 }
 
-.shop-banner{
+.shop-banner-overlay{
   position: absolute;
   background-color: black;
   opacity: 20%;
