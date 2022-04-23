@@ -1,6 +1,6 @@
 /**
 
-    Main style sheet for global styles
+    Main style sheet for shop style
 
 */
 .shop-banner {
@@ -105,4 +105,8 @@
   border: none;
   cursor: pointer;
   transition: 0.2s east out;
+}
+
+ul{
+  list-style: none;
 }
