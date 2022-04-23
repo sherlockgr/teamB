@@ -51,6 +51,10 @@ input[type=submit]:hover {
   width:auto;
 }
 
+p {
+  text-indent: 50px;
+}
+
 .about-description {
   display:flex;
   width:100%;
