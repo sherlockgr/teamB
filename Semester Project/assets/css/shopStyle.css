@@ -3,6 +3,45 @@
     Main style sheet for global styles
 
 */
+.shop-banner {
+  background-image: url("https://www.lighthousequilting.com/uploads/b/989f4d01520c92ea7e6b091b5704e7d2fa3980ebf0aa0230b14efe2437c2babf/Brown%20Photocentric%20National%20Quilting%20Day%20Instagram%20Post_1650500306.png?width=2000");
+  height: 500px;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.banner-overlay{
+  position: absolute;
+  background-color: black;
+  opacity: 20%;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.shop-banner-title{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  color: white;
+  text-shadow: 3px 0px 7px rgba(81,67,21,0.8), 
+	  -3px 0px 7px rgba(81,67,21,0.8), 
+	  0px 4px 7px rgba(81,67,21,0.8);
+  font-size: 50px;
+  font-weight: 600;
+ 
+
+}
+
+
+
+
 
 .shop-container {
   display: flex;
@@ -14,15 +53,12 @@
 .shop-row {
   display: flex;
   flex-direction: row;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: center;
   width: 100%;
   height: 100%;
   padding: 5%;
 }
-
-
-
 
 .shop-col {
   display: flex;
@@ -33,9 +69,8 @@
   border-radius: 5px;
   padding: 2.5%;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  transition:.2s;
+  transition: 0.2s;
 }
-
 
 .shop-img {
   height: auto;
@@ -44,32 +79,30 @@
 }
 
 .shop-heading {
-    font-size:20px;
-    padding-top:2%;
-
+  font-size: 20px;
+  padding-top: 2%;
 }
 
 .shop-price {
-    padding-top:6%;
-    font-size:20px;
+  padding-top: 6%;
+  font-size: 20px;
 }
 
 .shop-qty {
-    margin-top:6%;
-    font-size:20px;
+  margin-top: 6%;
+  font-size: 20px;
 }
 
 .shop-button {
-    background-color:#2c58bb;
-    border-radius:5px;
-    margin-top:6%;
-    padding:3%;
-    color:white;
-    font-weight:300;
-    font-size:16px;
-    width:50%;
-    border:none;
-    cursor:pointer;
-    transition:.2s east out;
+  background-color: #2c58bb;
+  border-radius: 5px;
+  margin-top: 6%;
+  padding: 3%;
+  color: white;
+  font-weight: 300;
+  font-size: 16px;
+  width: 50%;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s east out;
 }
-
