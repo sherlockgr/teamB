@@ -6,11 +6,12 @@
     <meta name="date" content="" />
     <meta name="description" content="CSCI 1210 " />
     <meta name="keywords" content="csci, 1210," />
-    <title>Home</title>
+    <title>Longarm Services</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/homeStyle.css" />
     <link rel="stylesheet" href="assets/css/aboutStyle.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/shopStyle.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/longarm.css" />
     <link rel="icon" href="assets/images/logo.png" />
     <!--
     		Author:         Ethan Light
@@ -42,32 +43,41 @@
       <i class="fa-solid fa-cart-shopping cart-icon"></i>
       <button type="button" onclick="testFunction()">Click Me</button>
     </nav>
+    <div class="container">
+        <div class="div-header">
+            <h1>Longarm Quilting Services</h1>
+        </div>
+        <div class="div-description">
+            <h3>
+                Congratulations on completing your quilt top. I am sure hours and hours have gone into your project. I would be honored to help you finish your beautiful quilt.
+                <br>
+                <br>
+                My longarm edge to edge quilting service is $0.02 per square inch. A square inch is calculated by multiplying the length and width. For example, if your quilt measures 80" length x 60" width = 4800 square inches. 4800 x $0.02 = $96.00. 
+            </h3>
+        </div>
+        <div class="div-header2">
+			<h3>Enter Your Quilt Top Measurements</h3>
+            <br>
+            <p>Measure your quilt and enter in the width and the height in inches. </p>
+        </div>
+        <div class = div-information>
+            <input type="text" id="dimensions" name="dimensions" placeholder="What are the dimensions of your quilt (in inches?). ">
+            <input type="text" id="email" name="email" placeholder="Email">
+            <input type="text" id="phone" name="phone" placeholder="Phone Number">
+            <input type="text" id="service" name="service" placeholder="Type of service needed">
+            <input type="text" id="additional" name="additional" placeholder="Provide any additional information you think is important. ">
 
+            <input type="submit" value="Submit">
+        </div>
+    </div>
 
-
-
-
-<!-----Contact info-->
 
 
 
 
     <!----Footer-->
     <footer class="footer-container">
-      <nav class="nav-container">
-        <img
-          class="nav-img"
-          src="assets/images/logo.png"
-          alt="Lighthouse Quilting Company"
-        />
-        <ul class="nav-link-container">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="pages/aboutUs.html">About Us</a></li>
-          <li><a href="pages/contact.html">Contact</a></li>
-          <li><a href="pages/shop.html">Shop</a></li>
-        </ul>
-        <i class="fa-solid fa-cart-shopping cart-icon"></i>
-      </nav>
+      
     </footer>
     <script src="assets/js/test.js"></script>
     <script src="/js/w3c.js"></script>
