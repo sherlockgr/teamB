@@ -35,7 +35,7 @@ body {
     height:200px;                         
     font-family:Verdana, Tahoma, sans-serif;
     font-size: 15px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .nav-link-container {
@@ -83,8 +83,8 @@ nav a:hover, nav a:active, .current {
 /*------Footer Styles --------*/
 
 .footer-container {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  background-color:#2c58bb;
+  margin-top:40%;
+  height:400px;
+  width:100%;
 }
