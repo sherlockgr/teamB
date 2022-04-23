@@ -18,9 +18,12 @@
 				Date:           4/10/22
 				Last revised:   4/21/22
 			-->
-	<!--Font awesome icon kit-->
-	<script src="https://kit.fontawesome.com/ca850491eb.js" crossorigin="anonymous"></script>
-</head>
+    <!--Font awesome icon kit-->
+    <script
+      src="https://kit.fontawesome.com/ca850491eb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
 <body>
 	<!---Header----->
@@ -37,55 +40,68 @@
 		<button type="button" onclick="testFunction()">Click Me</button>
 	</nav>
 
-	<div>
-		<header>
-			<h1>Company History</h1>
-		</header>
-		<p>
-			description of company's history
-		</p>
-		<header>
-			<h1>Contact Us!</h1>
-		</header>
+    <div class="contact-section">
+      <h1 class="about-heading">Company History</h1>
 
-		<div class="container">
-			<form action="/action_page.php" method="POST">
-				<label for="fname">First Name</label>
-				<input type="text" id="fname" name="firstname" placeholder="first name...">
+      <p class="about-description">description of company's history</p>
 
-				<label for="lname">Last Name</label>
-				<input type="text" id="lname" name="lastname" placeholder="last name...">
+      <h1 class="contact-heading">Contact Us!</h1>
 
-				<label for="country">Country</label>
-				<select id="country" name="country">
-					<option value="usa">USA</option>
-					<option value="canada">Canada</option>
-				</select>
+      <div class="container">
+        <form class="contact-form" action="/action_page.php" method="POST">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="first name..."
+          />
 
-				<label for="subject">Order Specifics</label>
-				<textarea id="subject" name="subject" placeholder="type anything..." style="height:150px"></textarea>
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="last name..."
+          />
 
-				<input type="submit" value="Submit">
-			</form>
-		</div>
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+          </select>
 
-	</div>
+          <label for="subject">Order Specifics</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="type anything..."
+            style="height: 150px"
+          ></textarea>
 
-	<!----Footer-->
-	<footer class="footer-container">
-		<nav class="nav-container">
-			<img class="nav-img" src="assets/images/logo.png" alt="Lighthouse Quilting Company" />
-			<ul class="nav-link-container">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="pages/aboutUs.html">About Us</a></li>
-				<li><a href="pages/contact.html">Contact</a></li>
-				<li><a href="pages/shop.html">Shop</a></li>
-			</ul>
-			<i class="fa-solid fa-cart-shopping cart-icon"></i>
-		</nav>
-	</footer>
-	<script src="assets/js/test.js"></script>
-	<script src="/js/w3c.js"></script>
-</body>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
 
+    <!----Footer-->
+    <footer class="footer-container">
+      <nav class="nav-container">
+        <img
+          class="nav-img"
+          src="assets/images/logo.png"
+          alt="Lighthouse Quilting Company"
+        />
+        <ul class="nav-link-container">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/aboutUs.html">About Us</a></li>
+          <li><a href="pages/contact.html">Contact</a></li>
+          <li><a href="pages/shop.html">Shop</a></li>
+        </ul>
+        <i class="fa-solid fa-cart-shopping cart-icon"></i>
+      </nav>
+    </footer>
+    <script src="assets/js/test.js"></script>
+    <script src="/js/w3c.js"></script>
+  </body>
 </html>

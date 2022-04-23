@@ -6,16 +6,6 @@ About styles css file
 */
 
 
-p {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    width: 100%;
-    text-align: margin-left;
-    text-indent: 50px;
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 16px;
-}
-
 
 input[type=text], select, textarea {
   width: 100%;
@@ -42,7 +32,50 @@ input[type=submit]:hover {
 }
 
 .container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+  display:flex;
+  justify-content: center;
+  width:100%;
+  border-radius:5px;
+
+}
+
+.contact-form {
+  border-radius:5px;
+  padding:4%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.about-heading {
+  display:flex;
+  justify-content: center;
+  width:auto;
+}
+
+.about-description {
+  display:flex;
+  width:100%;
+  justify-content: center;
+}
+
+.contact-section{
+  padding-top:5%;
+}
+
+.contact-heading {
+  display:flex;
+  justify-content:center;
+  width:100%;
+  padding-top:15%;
+  padding-bottom:2%;
+}
+
+
+@media (max-width:768px) {
+  .container {
+    display:flex;
+    justify-content: center;
+    width:80%;
+    border-radius:5px;
+  
+  }
 }
