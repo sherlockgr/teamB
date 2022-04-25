@@ -29,3 +29,44 @@
   font-size: 50px;
   font-weight: 600;
 }
+
+.container {
+  max-width: 1200px;      
+  min-height: 500px;      
+  margin: 0 auto;         
+  padding: 0 10px;        
+  margin-bottom: 75px;    
+  margin-top: 50px;
+  background-color: white;  
+}
+
+.div-head {
+  text-align: left;
+  font-size: 30px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.div-head-img {
+  margin-left: 247px;
+  padding-top: 100px;
+  width: 30%;
+}
+
+.div-information {
+  text-align: right;
+  font-size: 20px;
+  padding-top: 100px;
+  float: right;
+}
+
+.submit-button {
+  background-color: blue;
+  color: white;
+  border: 2px solid blue;
+}
+
+.shop-button {
+  background-color: blue;
+  color: white;
+  border: 2px solid blue;
+}
